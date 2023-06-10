@@ -21,6 +21,12 @@ PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
     android.hidl.manager@1.0
 
+# Ramdisk
+PRODUCT_PACKAGES += \
+    init.kirin710.rc \
+    fstab.kirin710 \
+    ueventd.qcom.rc \
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-sp
