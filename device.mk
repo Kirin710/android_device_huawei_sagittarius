@@ -16,6 +16,10 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT) \
     ro.build.version.release=$(PLATFORM_VERSION)
 
+# Display
+PRODUCT_PACKAGES += \
+    libion
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
